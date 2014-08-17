@@ -90,7 +90,7 @@ module Postfix
         if options[option]
           values << [ 0, options[option] ]
         end
-        options[option] = values.sort.map { |p, v| v }.join(" ")
+        options[option] = values.map { |p, v| v }.sort.join(" ")
       end
       @options_to_merge = {}
     end

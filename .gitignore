@@ -1,4 +1,20 @@
-tmp
-Gemfile
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+pkg/
+
+# Berkshelf
+.vagrant
+/cookbooks
+Berksfile.lock
+
+# Bundler
 Gemfile.lock
-metadata.json
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
